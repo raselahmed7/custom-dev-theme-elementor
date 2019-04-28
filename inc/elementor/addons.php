@@ -71,7 +71,7 @@ class PPM_Button_Widget extends \Elementor\Widget_Base {
             $target= "_blank";
         }
 
-		echo '<a href="'.$settings['link'].'" target="'.$target.'">'.$settings['btn_text'].'</a>';
+		echo '<a class="boxed-btn" href="'.$settings['link'].'" target="'.$target.'">'.$settings['btn_text'].'</a>';
 
 	}
 
